@@ -1,0 +1,82 @@
+package scratchPaper;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		int[][] TdA= new int[8][10];
+		
+		int x,y,z,t,k,l,m,n,o,p,r,s,v,u;
+		
+		for(int i=0; i<8; i++){
+			for(int j=0; j<10; j++){
+				
+				TdA[i][j]=0;
+			}}
+		Scanner object1= new Scanner(System.in);
+		Scanner object2= new Scanner(System.in);
+		System.out.println("Hangi gün ve saat boşsunuz?");
+		x= object1.nextInt();
+		y= object2.nextInt();	
+		
+		TdA[x][y]=1;
+		
+		Scanner object3= new Scanner(System.in);
+		Scanner object4= new Scanner(System.in);
+		System.out.println("Başka");
+		z= object3.nextInt();
+		t= object4.nextInt();	
+		
+		TdA[z][t]=1;
+		
+		Scanner object5= new Scanner(System.in);
+		Scanner object6= new Scanner(System.in);
+		System.out.println("Başka");
+		k= object5.nextInt();
+		l= object6.nextInt();	
+		
+		TdA[k][l]=1;
+			
+		Scanner object7= new Scanner(System.in);
+		Scanner object8= new Scanner(System.in);
+		System.out.println("Başka");
+		m= object7.nextInt();
+		n= object8.nextInt();	
+		
+		TdA[m][n]=1;
+		
+		Scanner object9= new Scanner(System.in);
+		Scanner object10= new Scanner(System.in);
+		System.out.println("Başka");
+		o= object9.nextInt();
+		p= object10.nextInt();	
+		
+		TdA[o][p]=1;
+		
+		Scanner object11= new Scanner(System.in);
+		Scanner object12= new Scanner(System.in);
+		System.out.println("Başka");
+		r= object11.nextInt();
+		s= object12.nextInt();	
+		
+		TdA[r][s]=1;
+		
+		Scanner object13= new Scanner(System.in);
+		Scanner object14= new Scanner(System.in);
+		System.out.println("Başka");
+		v= object13.nextInt();
+		u= object14.nextInt();	
+		
+		TdA[v][u]=1;
+		
+		for(int i=0; i<8; i++){
+			for(int j=0; j<10; j++){
+				System.out.print(TdA[i][j]+" ");	
+			}System.out.println();
+		}
+		
+		
+	}
+}
