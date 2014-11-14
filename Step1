@@ -1,0 +1,31 @@
+package scratchPaper;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		
+		int[][] TdA= new int[5][7];
+		
+		int x;
+		int y;
+		
+		for(int i=0; i<5; i++){
+			for(int j=0; j<7; j++){
+				
+				TdA[i][j]=0;
+			}}
+		Scanner object1= new Scanner(System.in);
+		Scanner object2= new Scanner(System.in);
+		x= object1.nextInt();
+		y= object2.nextInt();	
+		TdA[x][y]=1;
+		
+		for(int i=0; i<5; i++){
+			for(int j=0; j<7; j++){
+				System.out.print(TdA[i][j]+" ");	
+			}System.out.println();
+		}
+	}
+}
